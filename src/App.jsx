@@ -21,6 +21,27 @@ function App() {
         </div>
       </section>
 
+      <section id="beneficios">
+        <div className='beneficios-container'>
+          <h2>Toda la información que necesitas, al instante y sin distracciones.</h2>
+          <div className='beneficios'>
+            <img src="" alt="" />
+            <p>
+              <img src="https://cdn-icons-png.flaticon.com/512/8270/8270486.png" alt="lista" className='img-benef' />
+              Accede al listado completo de Digimon
+            </p>
+            <p>
+              <img src="https://cdn-icons-png.flaticon.com/512/18642/18642436.png" alt="corazon" className='img-benef' />
+              Guarda a tus Digimon favoritos con un solo toque.
+            </p>
+            <p>
+              <img src="https://cdn-icons-png.flaticon.com/512/5726/5726470.png" alt="corazon" className='img-benef' />
+              Demuestra cuánto sabes respondiendo trivias.
+            </p>
+          </div>
+        </div>
+      </section>
+
 
     </>
   )

@@ -6,8 +6,6 @@ body {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-
-  background-color: red;
 }
 
 header {
@@ -32,6 +30,7 @@ header nav {
 header nav a {
   text-decoration: none;
   color: white;
+  transition: color 0.3s ease;
 }
 
 header nav a:hover {
@@ -97,7 +96,13 @@ header nav a:hover {
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
+  transition: background-color 0.3s ease;
 }
+
+.hero-container a:hover {
+  background-color: #23B6D6;
+}
+
 
 @media (max-width: 640px) {
   .hero-container h1 {
@@ -115,4 +120,85 @@ header nav a:hover {
     background-position: 60% center;
   }
 
+}
+
+.beneficios-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 80vh;
+  background-color: #B5DFE9;
+}
+
+.beneficios {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  text-align: center;
+  flex: 1;
+  padding: 100px 0px;
+}
+
+.beneficios-container h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+  padding: 5px 10px;
+  margin: 100px 0px;
+  text-align: center;
+}
+
+
+
+.beneficios-container p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: white;
+  background-color: rgba(27, 45, 108, 1);
+  padding: 10px 10px;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
+
+.img-benef {
+  width: 200px;
+  height: auto;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 640px) {
+  .beneficios-container {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .beneficios-container h2 {
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+    ;
+    font-weight: 600;
+  }
+
+  .beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .beneficios-container p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(27, 45, 108, 1);
+    padding: 10px 10px;
+    border-radius: 5px;
+    max-width: 300px;
+  }
 }
