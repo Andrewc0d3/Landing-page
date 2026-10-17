@@ -6,6 +6,49 @@ body {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+
+  background-color: red;
+}
+
+header {
+  background-color: #1B2D6C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  display: block;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav a:hover {
+  color: #B5DFE9;
+}
+
+@media (max-width: 640px) {
+
+  header,
+  nav {
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 15px;
+    align-items: center;
+  }
 }
 
 .hero-container {
@@ -68,7 +111,7 @@ body {
     margin-bottom: 80px;
   }
 
-  .hero-container{
+  .hero-container {
     background-position: 60% center;
   }
 
