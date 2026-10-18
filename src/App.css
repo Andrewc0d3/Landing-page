@@ -128,7 +128,7 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  height: 80vh;
+  min-height: 80vh;
   background-color: #B5DFE9;
 }
 
@@ -141,7 +141,7 @@ header nav a:hover {
   padding: 100px 0px;
 }
 
-.beneficios-container h2 {
+.beneficios-container .titulo-beneficios {
   font-size: 2rem;
   font-weight: 700;
   color: black;
@@ -153,13 +153,13 @@ header nav a:hover {
 
 
 .beneficios-container p {
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
   color: white;
   background-color: rgba(27, 45, 108, 1);
   padding: 10px 10px;
   border-radius: 5px;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 
@@ -178,7 +178,7 @@ header nav a:hover {
     padding: 40px 20px;
   }
 
-  .beneficios-container h2 {
+  .beneficios-container .titulo-beneficios {
     font-size: 2rem;
     margin: 0 0 20px 0;
     ;
