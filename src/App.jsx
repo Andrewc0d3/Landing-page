@@ -6,7 +6,7 @@ function App() {
     <>
       <section id="header-section">
         <header>
-          <a href="#"><img src="public\logo.png" alt="logo" className='logo' /></a>
+          <a href="#"><img src="logo.png" alt="logo" className='logo' /></a>
           <nav>
             <a href="https://digimonreactapi.netlify.app/">Descargar DigiApp</a>
           </nav>
