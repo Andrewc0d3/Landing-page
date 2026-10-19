@@ -588,13 +588,10 @@ footer {
   align-items: center;
 }
 
-.footer-redes a {
-  color: white;
-  transition: color 0.3s ease;
-}
-
-.footer-redes a:hover {
-  color: #23B6D6;
+.img-redes {
+  width: 24px;
+  height: 24px;
+  display: block;
 }
 
 .footer-bottom {
